@@ -1,0 +1,47 @@
+﻿body {
+    background-image: url('https://pngtree.com/freebackground/tropical-paradise-at-maldives-clear-cloud-vacations-photo_3383060.html'); background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative; /* Ensure positioning context for overlay */
+}
+h1 {
+    transition: text-shadow 0.3s ease, color 0.3s ease; /* Smooth transition for shadow and color */
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity here */
+    z-index: 1; /* Position overlay above background */
+}
+
+.content-wrapper {
+    position: relative; /* Ensure content is above the overlay */
+    z-index: 2; /* Content above the overlay */
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: maintain existing content styling */
+    padding-bottom: 50px;
+}
+
+h1 {
+    transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+    h1:hover {
+        transform: rotate(5deg) scale(1.1); /* Rotate and scale on hover */
+    }
+
+.card {
+    transition: transform 0.3s ease; /* Smooth transformation for cards */
+}
+
+    .card:hover {
+        transform: translateY(-10px) rotate(3deg); /* Move up and rotate slightly on hover */
+    }
+h2, h4, p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
