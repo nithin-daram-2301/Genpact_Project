@@ -1,0 +1,25 @@
+<form (ngSubmit)="submit()" class="container mt-4 p-4 rounded shadow" style="background-color: #f8f9fa;">
+    <h2 class="text-center mb-4" style="color: #007bff; font-family: 'Arial', sans-serif;">Submit Your Information</h2>
+    
+    <div class="mb-3">
+        <label for="title" class="form-label">Title:</label>
+        <input type="text" [(ngModel)]="title" name="title" class="form-control" id="title" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="image" class="form-label">Image:</label>
+        <input type="file" (change)="onFileChange($event)" class="form-control" id="image" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Description:</label>
+        <textarea [(ngModel)]="description" name="description" class="form-control" id="description" required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label for="htmlContent" class="form-label">HTML Content:</label>
+        <textarea [(ngModel)]="htmlContent" name="htmlContent" class="form-control" id="htmlContent" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100 hover-effect">Submit</button>
+</form>
