@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Paradise_Home_page/1.0.0": {
+        "runtime": {
+          "Paradise_Home_page.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Paradise_Home_page/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
