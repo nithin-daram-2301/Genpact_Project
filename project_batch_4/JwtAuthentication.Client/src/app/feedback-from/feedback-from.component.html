@@ -1,0 +1,55 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Feedback Form</h2>
+    <form #feedbackForm="ngForm" (ngSubmit)="insertRecord(feedbackForm)" class="border p-4 rounded shadow">
+      <div class="form-group">
+        <label for="uname">Username:</label>
+        <input 
+          type="text" 
+          id="uname" 
+          name="uname" 
+          class="form-control" 
+          [(ngModel)]="objs.fData.Uname" 
+          required 
+          placeholder="Enter your username" />
+      </div>
+    
+      <div class="form-group">
+        <label for="uemail">Email:</label>
+        <input 
+          type="email" 
+          id="uemail" 
+          name="uemail" 
+          class="form-control" 
+          [(ngModel)]="objs.fData.Uemail" 
+          required 
+          placeholder="Enter your email" />
+      </div>
+    
+      <div class="form-group">
+        <label for="rating">Rating:</label>
+        <input 
+          type="number" 
+          id="rating" 
+          name="rating" 
+          class="form-control" 
+          [(ngModel)]="objs.fData.Rating" 
+          min="1" 
+          max="5" 
+          required 
+          placeholder="Rate 1-5" />
+      </div>
+    
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea 
+          id="comment" 
+          name="comment" 
+          class="form-control" 
+          [(ngModel)]="objs.fData.Comment" 
+          placeholder="Enter your feedback"></textarea>
+      </div>
+    
+      <button type="submit" class="btn btn-primary btn-block">Submit Feedback</button>
+    </form>
+  </div>
+  

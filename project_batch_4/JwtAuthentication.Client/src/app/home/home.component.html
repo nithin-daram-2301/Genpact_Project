@@ -1,0 +1,138 @@
+<!-- <h1>Home Page</h1>
+
+<br>
+<div *ngIf="isUserAuthenticated()" style="color:blue;">
+  <h2>
+    YOU ARE LOGGED IN
+  </h2>
+</div>
+
+<br>
+<ul>
+  <li><a routerLink="/customers">Customer</a></li>
+  <li *ngIf="!isUserAuthenticated()"><a routerLink="/login">Login</a></li>
+  <li *ngIf="isUserAuthenticated()"><a class="logout" (click)="logOut()">Logout</a></li>
+</ul> -->
+
+
+<section id="heroCarousel" class="hero carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('../assets/Images/Home-1.jfif');">
+          <h2 class="carousel-text">Welcome to Your Dream Vacation</h2>
+      </div>
+      <div class="carousel-item" style="background-image: url('../assets/Images/Culture.jpg');">
+          <h2 class="carousel-text">Explore Culture</h2>
+      </div>
+      <div class="carousel-item" style="background-image: url('../assets/Images/Home-3.jfif');">
+          <h2 class="carousel-text">Adventure Awaits in Every Corner</h2>
+      </div>
+  </div>
+  <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+  </a>
+</section>
+<section id="destinations" class="destinations py-5">
+  <div class="container">
+      <h3 class="text-center" style="color:black;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Top Destinations</h3>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card mb-4">
+                  <img src="../assets/Images/kerala.jpg" class="card-img-top" alt="Kerala" style="height: 200px; object-fit: cover;">
+                  <div class="card-body text-center">
+                      <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Kerala</h4>
+                      <p class="card-text" style="font-family:'Times New Roman', Times, serif">Enjoy with backwaters, endless tea plantations and rich in culture</p>
+                      <button class="btn btn-primary" onclick="window.location.href='kerala.html'">Learn More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4">
+                  <img src="../assets/Images/goa.jpg" class="card-img-top" alt="Goa" style="height: 200px; object-fit: cover;">
+                  <div class="card-body text-center">
+                      <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Goa</h4>
+                      <p class="card-text" style="font-family:'Times New Roman', Times, serif">Experience luxury on beautiful beaches, crystal clear waters, and vibrant marine life.</p>
+                      <button class="btn btn-primary" onclick="window.location.href='goa.html'">Learn More</button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4">
+                  <img src="../assets/Images/delhi.jpg" class="card-img-top" alt="Delhi" style="height: 200px; object-fit: cover;">
+                  <div class="card-body text-center">
+                      <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Delhi</h4>
+                      <p class="card-text" style="font-family:'Times New Roman', Times, serif">A historical capital city and cultural treasure trove.</p>
+                      <button class="btn btn-primary" onclick="window.location.href='delhi.html'">Learn More</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="activities" class="activities py-5 bg-light">
+  <div class="container">
+      <h3 class="text-center" style="color:black;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Exciting Activities</h3>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card mb-4">
+                  <img src="../assets/Images/Trekking.jpg" class="card-img-top" alt="Trekking" style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                      <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Trekking</h4>
+                      <p class="card-text" style="font-family:'Times New Roman', Times, serif">Explore beautiful trails and breathtaking views.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4">
+                  <img src="../assets/Images/camping.jpg" class="card-img-top" alt="Camping" style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                      <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Camping</h4>
+                      <p class="card-text" style="font-family:'Times New Roman', Times, serif">Experience the beauty of nature under the stars.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4">
+                  <img src="../assets/Images/scuba.jpg" class="card-img-top" alt="Scuba Diving" style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                      <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Scuba Diving</h4>
+                      <p class="card-text" style="font-family:'Times New Roman', Times, serif">Dive into the vibrant underwater world.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="reviews" class="reviews py-5">
+  <div class="container">
+      <h3 class="text-center" style="color:black;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">What Our Customers Say</h3>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="review active text-center">
+                  <p style="font-family:'Times New Roman', Times, serif">
+                      <h5>"Amazing experience! The Kerala trip was unforgettable."</h5>
+                      <span style="display: block; margin-top: 10px; font-weight: bold;">- Sarah</span>
+                 
+              </div>
+              <div class="review text-center">
+                  <p style="font-family:'Times New Roman', Times, serif">
+                      <h5>"Goa was a paradise! I can't wait to go back."</h5>
+                      <span style="display: block; margin-top: 10px; font-weight: bold;">- Mike</span>
+                  
+              </div>
+              <div class="review text-center">
+                  <p style="font-family:'Times New Roman', Times, serif">
+                      <h5>"Delhi's culture is rich and vibrant! A must-visit."</h5>
+                      <span style="display: block; margin-top: 10px; font-weight: bold;">- Emily</span>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

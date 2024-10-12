@@ -1,0 +1,18 @@
+<br>
+<div *ngIf="isUserAuthenticated()" style="color:blue;">
+  <h2>
+    YOU ARE LOGGED IN
+  </h2>
+</div>
+
+<br>
+<ul>
+  <li><a routerLink="/customers">Customer</a></li>
+  <li><a routerLink="/packages">package</a></li>
+  <li><a routerLink="/package-create">package-create</a></li>
+  <li><a routerLink="/package-edit">package-edit</a></li>
+  <li><a routerLink="/booking-list">The Booking List</a></li>
+  <li><a routerLink="/booking-form">The Booking List</a></li>
+  <li *ngIf="!isUserAuthenticated()"><a routerLink="/login">Login</a></li>
+  <li *ngIf="isUserAuthenticated()"><a class="logout" (click)="logOut()">Logout</a></li>
+</ul>

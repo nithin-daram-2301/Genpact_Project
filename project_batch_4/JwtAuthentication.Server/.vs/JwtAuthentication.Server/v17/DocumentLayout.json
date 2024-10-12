@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|c:\\users\\user\\desktop\\jwtangular-master\\jwtauthentication.server\\jwtauthentication.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|solutionrelative:jwtauthentication.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|c:\\users\\user\\desktop\\jwtangular-master\\jwtauthentication.server\\jwtauthentication.server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|solutionrelative:jwtauthentication.server\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|c:\\users\\user\\desktop\\jwtangular-master\\jwtauthentication.server\\jwtauthentication.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|solutionrelative:jwtauthentication.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|c:\\users\\user\\desktop\\jwtangular-master\\jwtauthentication.server\\jwtauthentication.server\\models\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|solutionrelative:jwtauthentication.server\\models\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|c:\\users\\user\\desktop\\jwtangular-master\\jwtauthentication.server\\jwtauthentication.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|solutionrelative:jwtauthentication.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|c:\\users\\user\\desktop\\jwtangular-master\\jwtauthentication.server\\jwtauthentication.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|solutionrelative:jwtauthentication.server\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|c:\\users\\user\\desktop\\jwtangular-master\\jwtauthentication.server\\jwtauthentication.server\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F564BBE-FA8E-4A14-85B6-8A44CFED4D1D}|JwtAuthentication.Server\\JwtAuthentication.Server.csproj|solutionrelative:jwtauthentication.server\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "JwtAuthentication.Server\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "JwtAuthentication.Server\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:17:20.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JwtAuthentication.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JwtAuthentication.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:17:20.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "JwtAuthentication.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\appsettings.json",
+              "RelativeToolTip": "JwtAuthentication.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T14:17:20.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "JwtAuthentication.Server\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\WeatherForecast.cs",
+              "RelativeToolTip": "JwtAuthentication.Server\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:17:20.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticatedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Models\\AuthenticatedResponse.cs",
+              "RelativeDocumentMoniker": "JwtAuthentication.Server\\Models\\AuthenticatedResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Models\\AuthenticatedResponse.cs",
+              "RelativeToolTip": "JwtAuthentication.Server\\Models\\AuthenticatedResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:17:20.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Program.cs",
+              "RelativeDocumentMoniker": "JwtAuthentication.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Program.cs",
+              "RelativeToolTip": "JwtAuthentication.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:17:20.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "JwtAuthentication.Server\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\jwtangular-master\\JwtAuthentication.Server\\JwtAuthentication.Server\\Models\\LoginModel.cs",
+              "RelativeToolTip": "JwtAuthentication.Server\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:17:20.818Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
