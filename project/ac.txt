@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - Paradise Vacations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Header Section with Background Image */
+.header {
+    position: relative;
+    height: 300px;
+    background: url('path-to-your-image.jpg') no-repeat center center/cover;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* darken the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-us ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.about-us li {
+    margin-bottom: 10px;
+}
+
+/* Feedback Form Section */
+.feedback-form {
+    padding: 40px;
+    background-color: #eef;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form label {
+    margin-top: 10px;
+}
+
+.feedback-form input, 
+.feedback-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.feedback-form input[type="submit"] {
+    margin-top: 20px;
+    background-color: #FFD700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color: #E5A600;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    margin-bottom: 20px;
+}
+
+footer .footer-content h3 {
+    margin-bottom: 10px;
+}
+
+footer .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+</style>
+<body>
+    <!-- Header Section with Background Image -->
+    <header class="header">
+        <div class="header-overlay">
+            <h1>About Us</h1>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="about-us">
+            <h2>About Paradise Holidayers</h2>
+            <p><i>Paradise Holidayers Tour & Travels, One of the leading tour & travels in India</i></p>
+
+            <p>Paradise Holidayers is a leading travel company that curates world-class vacation experiences to top destinations including Himachal Pradesh, Jammu and Kashmir, Kerala, Goa, Andaman, Rajasthan, and more. With over <strong>10 years</strong> of expertise in the travel industry, we pride ourselves in delivering exceptional services tailored to meet the unique requirements of every traveler.</p>
+            
+            <h3>Our Vision</h3>
+            <p>At Paradise Holidayers, we aim to redefine your travel experiences. From offering premium travel packages to ensuring smooth logistics, we go the extra mile to create moments that will stay with you forever.</p>
+
+            <h3>Our Services</h3>
+            <ul>
+                <li><strong>Customized Travel Plans:</strong> Tailored to your unique interests, from cultural tours to adventure trips.</li>
+                <li><strong>24/7 Customer Support:</strong> We provide round-the-clock assistance to make sure you have a stress-free trip.</li>
+                <li><strong>Wide Range of Destinations:</strong> From the picturesque hill stations of the Himalayas to the sun-kissed beaches of Goa, we’ve got you covered.</li>
+            </ul>
+        </section>
+
+        <!-- Feedback Form Section -->
+        <section class="feedback-form">
+            <h2>Feedback</h2>
+            <p>We value your feedback! Please fill out the form below to share your experience with us.</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p><strong>Phone:</strong> +91 12345 67890</p>
+            <p><strong>Email:</strong> info@paradisevacations.com</p>
+            <p><strong>Address:</strong> Paradise Vacations, 123 Travel Lane, Goa, India</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Paradise Vacations. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

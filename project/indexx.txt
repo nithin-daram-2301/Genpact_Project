@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Paradise</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eaeaea;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centering the logo */
+            margin-left: 15px;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            margin-right: 15px;
+        }
+
+            nav a:hover {
+                color: #f39c12;
+            }
+
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #f39c12; /* Changed font color of hero section */
+            text-align: center;
+        }
+
+        .carousel-item {
+            height: 80vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+            .carousel-item h2 {
+                font-size: 3rem;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            }
+
+        .card {
+            transition: transform 0.3s;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+            }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #ecf0f1;
+        }
+
+            .social-links a:hover {
+                color: #f39c12;
+            }
+
+        #reviews {
+            animation: fadeIn 1s ease forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .review {
+            display: none;
+        }
+
+            .review.active {
+                display: block;
+                animation: slideIn 0.5s ease forwards;
+            }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .center-title {
+            text-align: right; /* Center align the text */
+            font-family: Cursive; /* Set font style to serif */
+            font-size: 3rem; /* Adjust font size as needed */
+            color: #FFFFFF; /* Adjust the color as desired */
+            margin: 20px 0px; /* Add some vertical spacing */
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 400px; /* or your desired height */
+            overflow: hidden;
+        }
+
+        .carousel-item {
+            height: 100%; /* Ensures the item takes full height */
+            background-size: cover; /* Ensures the image covers the area */
+            background-position: center;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full height of the viewport */
+            overflow: hidden;
+        }
+
+        .carousel-item {
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: fadeIn 1s ease-in-out; /* Add animation */
+        }
+
+        /* Animation for the text */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container-fluid d-flex align-items-center" style="padding: 0;">
+            <div class="logo h3">
+                <img src="Images/logo.jfif" alt="logo" style="height: 50px; margin-right: 10px;">
+                <h1 class="center-title">Paradise Vacations</h1>
+            </div>
+            <nav class="ml-auto">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="AboutUSs.html">About Us</a></li>
+                    <li class="list-inline-item"><a href="contactus.html">Contact Us</a></li>
+                    <li class="list-inline-item"><a href="#reviews">User Login</a></li>
+                    <li class="list-inline-item"><a href="#reviews">Admin Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="heroCarousel" class="hero carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('Images/Vacation.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 id="heroText">Vacation Awaits</h2>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('Images/Culture.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 id="heroText2">Experience Culture</h2>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('Images/Awaits.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 id="heroText3">Adventure Awaits</h2>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+
+    <section id="destinations" class="destinations py-5">
+        <div class="container">
+            <h3 class="text-center" style="color:black;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Top Destinations</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Images/kerala.jpg" class="card-img-top" alt="Kerala" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Kerala</h4>
+                            <p class="card-text" style="font-family:'Times New Roman', Times, serif">Enjoy with backwaters,endless tea plantations and rich in culture</p>
+                            <button class="btn btn-primary" onclick="window.location.href='kerala.html'">Learn More</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Images/goa.jpg" class="card-img-top" alt="Goa" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Goa</h4>
+                            <p class="card-text" style="font-family:'Times New Roman', Times, serif">Experience luxury on beautiful beaches, crystal clear waters, and vibrant marine life.</p>
+                            <button class="btn btn-primary" onclick="window.location.href='goa.html'">Learn More</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Images/Delhi.jpg" class="card-img-top" alt="Delhi" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Delhi</h4>
+                            <p class="card-text" style="font-family:'Times New Roman', Times, serif">A historical capital city and cultural treasure trove.</p>
+                            <button class="btn btn-primary" onclick="window.location.href='delhi.html'">Learn More</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="activities py-5 bg-light">
+        <div class="container">
+            <h3 class="text-center" style="color:black;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Exciting Activities</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Images/Trekking.jpg" class="card-img-top" alt="Trekking" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Trekking</h4>
+                            <p class="card-text" style="font-family:'Times New Roman', Times, serif">Discover trekking in Kerala is a rejuvenating affair</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Images/Windsurfing.jfif" class="card-img-top" alt="Hiking" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Windsurfing</h4>
+                            <p class="card-text" style="font-family:'Times New Roman', Times, serif">Art of riding the waves on windsurf boards with finesse.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Images/Rafting.jpg" class="card-img-top" alt="Rafting" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="color:darkblue;font-family:Bahnschrift">Rafting</h4>
+                            <p class="card-text" style="font-family:'Times New Roman', Times, serif">Get your adrenaline pumping with an exciting rafting adventure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews py-5">
+        <div class="container">
+            <h3 class="text-center" style="color:black;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">What Our Customers Say</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="review active">
+                        <p style="font-family:'Times New Roman', Times, serif"><h5>"Amazing experience! The Kerala trip was unforgettable." - Sarah</h5></p>
+                    </div>
+                    <div class="review">
+                        <p style="font-family:'Times New Roman', Times, serif"><h5>"Goa was a paradise! I can't wait to go back." - Mike</h5></p>
+                    </div>
+                    <div class="review">
+                        <p style="font-family:'Times New Roman', Times, serif"><h5>"Delhi's culture is rich and vibrant! A must-visit." - Emily</h5></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color: #2c3e50; color: #ecf0f1; padding: 20px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>We are dedicated to providing the best vacation experiences, tailored to your dreams and desires.</p>
+                    <p>With years of experience, our team is here to guide you every step of the way.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="color: #ecf0f1; transition: color 0.3s;">Privacy Policy</a></li>
+                        <li><a href="#" style="color: #ecf0f1; transition: color 0.3s;">Terms of Service</a></li>
+                        <li><a href="#" style="color: #ecf0f1; transition: color 0.3s;">FAQs</a></li>
+                        <li><a href="#" style="color: #ecf0f1; transition: color 0.3s;">Blog</a></li>
+                        <li><a href="#" style="color: #ecf0f1; transition: color 0.3s;">Travel Insurance</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: <a href="mailto:info@paradisevacations.com" style="color: #ecf0f1; transition: color 0.3s;">info@paradisevacations.com</a></p>
+                    <p>Phone: <a href="tel:+12345678901" style="color: #ecf0f1; transition: color 0.3s;">+1 (234) 567-8901</a></p>
+                    <p>Location: 123 Paradise St, Vacation City, CA 90210</p>
+                    <p>Hours: Mon-Fri: 9am - 6pm</p>
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png" alt="Facebook"></a>
+                        <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram"></a>
+                        <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitter.png" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: #ecf0f1;">
+            <p class="text-center">&copy; 2024 Paradise Vacations. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            let currentIndex = 0;
+            const reviews = $('.review');
+            const totalReviews = reviews.length;
+
+            function showNextReview() {
+                $(reviews[currentIndex]).removeClass('active');
+                currentIndex = (currentIndex + 1) % totalReviews;
+                $(reviews[currentIndex]).addClass('active');
+            }
+
+            setInterval(showNextReview, 3000); // Change review every 3 seconds
+        });
+    </script>
+    <script>
+        const texts = [
+            "Welcome to Your Dream Vacation",
+            "Explore Culture",
+            "Adventure Awaits in Every Corner"
+        ];
+
+        let currentIndex = 0;
+
+        function typeText(text, element) {
+            let index = 0;
+            element.innerHTML = ""; // Clear existing text
+            const typingInterval = setInterval(() => {
+                if (index < text.length) {
+                    element.innerHTML += text.charAt(index);
+                    index++;
+                } else {
+                    clearInterval(typingInterval);
+                    setTimeout(() => {
+                        currentIndex = (currentIndex + 1) % texts.length;
+                        typeText(texts[currentIndex], element);
+                    }, 2000); // Wait for 2 seconds before starting next text
+                }
+            }, 100); // Adjust typing speed (100ms per letter)
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const heroTextElement = document.getElementById("heroText");
+            typeText(texts[currentIndex], heroTextElement);
+
+            // Set up carousel for changing the background
+            $('#heroCarousel').on('slid.bs.carousel', () => {
+                if (currentIndex === 0) {
+                    currentIndex = 1;
+                    typeText(texts[currentIndex], document.getElementById("heroText2"));
+                } else if (currentIndex === 1) {
+                    currentIndex = 2;
+                    typeText(texts[currentIndex], document.getElementById("heroText3"));
+                } else {
+                    currentIndex = 0;
+                    typeText(texts[currentIndex], document.getElementById("heroText"));
+                }
+            });
+        });
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#heroCarousel').carousel({
+                interval: 5000 // Change slides every 5 seconds
+            });
+    });
+    </script>
+
+</body>
+</html >
