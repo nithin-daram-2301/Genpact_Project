@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+    transition: background-color 0.3s;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table th:hover {
+    background-color: #0056b3;
+}
+
+.table td {
+    transition: background-color 0.3s;
+}

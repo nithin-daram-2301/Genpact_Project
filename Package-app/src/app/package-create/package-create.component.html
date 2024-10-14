@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Package</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center">Create Package</h2>
+    <form (ngSubmit)="createPackage()">
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input id="title" class="form-control" [(ngModel)]="package.title" name="title" required>
+        </div>
+
+        <div class="form-group">
+            <label for="imageName">Image Name:</label>
+            <input id="imageName" class="form-control" [(ngModel)]="package.imageName" name="imageName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" class="form-control" [(ngModel)]="package.description" name="description" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input id="price" type="number" class="form-control" [(ngModel)]="package.price" name="price" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Create Package</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

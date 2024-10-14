@@ -1,0 +1,16 @@
+<div class="container">
+  <div *ngIf="isUserAuthenticated()" class="login-message">
+    <h2>YOU ARE LOGGED IN</h2>
+  </div>
+
+  <ul class="nav-list">
+    <li><a routerLink="/customers">Customer</a></li>
+    <li><a routerLink="/packages">Packages</a></li>
+    <li><a routerLink="/package-create">Create Package</a></li>
+    <li><a routerLink="/package-edit">Edit Package</a></li>
+    <li><a routerLink="/booking-list">Booking List</a></li>
+    <li><a routerLink="/booking-form">Booking Form</a></li>
+    <li *ngIf="!isUserAuthenticated()"><a routerLink="/login">Login</a></li>
+    <li *ngIf="isUserAuthenticated()"><a class="logout" (click)="logOut()">Logout</a></li>
+  </ul>
+</div>

@@ -1,0 +1,186 @@
+/* Style for the logged-in message */
+.login-message {
+    text-align: center; /* Center align the text */
+    color: #007bff; /* Blue color for the text */
+    margin-bottom: 20px; /* Space below the message */
+    font-size: 28px; /* Increased font size for emphasis */
+    font-weight: bold; /* Bold font */
+    animation: fadeIn 0.5s; /* Fade-in animation */
+}
+
+/* Navigation list styles */
+.nav-list {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: stretch; /* Stretch items to fill the container */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width for the navigation */
+    margin: 0 auto; /* Center the list */
+}
+
+/* Navigation items */
+.nav-list li {
+    margin: 15px 0; /* Space between list items */
+}
+
+/* Links styles */
+.nav-list a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 15px 20px; /* Add padding for clickable area */
+    background-color: #4e96dd; /* Background color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition for background and transform */
+    font-size: 20px; /* Font size for links */
+    font-family: 'Arial', sans-serif; /* Font family */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Hover effect for links */
+.nav-list a:hover {
+    background-color: #007bff; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* Style for logout link */
+.logout {
+    background-color: #dc3545; /* Red background for logout */
+}
+
+.logout:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start hidden */
+        transform: translateY(-10px); /* Slide from above */
+    }
+    to {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Slide to original position */
+    }
+}
+
+/* General Container Styling */
+.container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Login Message Styling */
+.login-message {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.login-message h2 {
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Navigation List Styling */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 10px 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Logout Button Styling */
+.logout {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+.logout:hover {
+    background-color: #c82333 !important;
+}
+
+/* Ensure Full Width Usage */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%; /* Ensures the container fills the width */
+    max-width: 1200px;
+}
+
+.nav-list a {
+    flex: 1;
+    text-align: center;
+    width: 100%; /* Ensures the links take up full width on mobile */
+    margin: 10px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list a {
+        width: 90%; /* Reduce width on smaller screens */
+    }
+}
+.container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-image: url('src/assets/Images/Admin.jpg'); /* Add this line */
+    background-size: 80%; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
