@@ -1,0 +1,24 @@
+<!-- src/app/components/package-user-display/package-user-display.component.html -->
+<h2 class="text-center mb-4">Available Packages</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mb-4" *ngFor="let pkg of packages">
+      <div class="card border-primary">
+        <div class="card-body">
+          <h4 class="card-title">{{ pkg.Title }}</h4>
+          <img 
+            [src]="'../../assets/Images/' + pkg.ImageName" 
+            class="img-fluid package-image" 
+            alt="Package Image"
+          >
+          <p class="card-text">{{ pkg.Description }}</p>
+          <p><strong>Price:</strong> {{ pkg.Price }}</p>
+          <p><strong>Duration:</strong> {{ pkg.Duration }}</p>
+          <p><strong>PackageId:</strong> {{ pkg.PackageId }}</p>
+          <button (click)="bookPackage(pkg.PackageId)" class="btn btn-primary">Book This Package</button>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,75 @@
+body {
+    background-color: #c7ddf2; /* Light background color */
+    font-family: 'Arial', sans-serif; /* Smooth font */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding */
+}
+
+.packages-title {
+    text-align: center; /* Center title */
+    font-size: 4rem; /* Title font size */
+    color: #333; /* Dark color for text */
+    margin-bottom: 40px; /* Space below the title */
+    font-family: 'Cursive', cursive; /* Apply cursive font */
+}
+
+
+.packages-list {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center items */
+}
+
+.package-item {
+    background: white; /* White background for each package */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 15px; /* Space between items */
+    padding: 20px; /* Inner padding */
+    text-align: center; /* Center text */
+    width: 300px; /* Fixed width for items */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.package-item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.package-title {
+    font-size: 1.5rem; /* Title font size */
+    margin: 10px 0; /* Space above and below the title */
+}
+
+.package-description {
+    font-size: 1rem; /* Description font size */
+    color: #666; /* Gray color for text */
+    margin: 10px 0; /* Space above and below description */
+}
+
+.package-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for image */
+}
+
+.package-price, .package-duration {
+    font-size: 1.1rem; /* Font size for price and duration */
+    margin: 10px 0; /* Space above and below */
+}
+
+.btn-delete {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white; /* White text */
+    border: 80%; /* No border */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Button font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition for hover */
+}
+
+.btn-delete:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
