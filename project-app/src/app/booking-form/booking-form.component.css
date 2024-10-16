@@ -1,0 +1,44 @@
+/* Booking Form Styles */
+.container {
+    max-width: 600px; /* Limit container width */
+    margin: auto; /* Center the container */
+    padding: 30px; /* Inner padding */
+    background: #ffffff; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    color: #343a40; /* Dark color for the title */
+    font-size: 2.5rem; /* Large title font size */
+}
+
+.form-group label {
+    font-weight: bold; /* Bold labels */
+    color: #495057; /* Darker color for labels */
+}
+
+.form-control {
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Light blue shadow */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Button padding */
+    font-size: 1.2rem; /* Larger font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    cursor: pointer; /* Change cursor on hover */
+}

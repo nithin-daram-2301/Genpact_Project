@@ -1,0 +1,92 @@
+<!-- <!-- <form #bookingForm="ngForm" autocomplete="off" (Submit)="insertRecord(bookingForm)">
+
+    <label for="userId">User ID:</label>
+    <input type="number" [(ngModel)]="objs.bData.UserId" name="userId" required />
+    <label for="packageId">Package ID:</label>
+    <input type="number" [(ngModel)]="objs.bData.PackageId" name="packageId" required />
+    <label for="NumberOfGuests">Number of Guests:</label>
+    <input type="number" [(ngModel)]="objs.bData.NumberOfGuests" name="NumberOfGuests" required />
+    <label for="CardNumber">CardNumber:</label>
+    <input type="text" [(ngModel)]="objs.bData.CardNumber" name="CardNumber" required />
+    <label for="CVV">CVV:</label>
+    <input type="number" [(ngModel)]="objs.bData.Cvv" name="CVV" required />
+    <label for="BookingDate">Booking Date:</label>
+    <input type="date" [(ngModel)]="objs.bData.BookingDate" name="BookingDate" required />
+    <button type="submit">Submit Booking</button>
+  
+  </form> -->
+  <!-- <div class="container">
+    <h2>Booking Form</h2>
+    
+    <form #bookingForm="ngForm" (ngSubmit)="insertRecord(bookingForm)" autocomplete="off">
+      <div class="form-group">
+        <label for="userId">User ID:</label>
+        <input type="number" id="userId" name="UserId" [(ngModel)]="objs.bData.UserId" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="packageId">Package ID:</label>
+        <input type="number" id="packageId" name="PackageId" [(ngModel)]="objs.bData.PackageId" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="numberOfGuests">Number of Guests:</label>
+        <input type="number" id="numberOfGuests" name="NumberOfGuests" [(ngModel)]="objs.bData.NumberOfGuests" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" name="CardNumber" [(ngModel)]="objs.bData.CardNumber" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" name="Cvv" [(ngModel)]="objs.bData.Cvv" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="bookingDate">Booking Date:</label>
+        <input type="date" id="bookingDate" name="BookingDate" [(ngModel)]="objs.bData.BookingDate" required class="form-control">
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Submit Booking</button>
+    </form>
+  </div>
+   --> 
+   <div class="container mt-5">
+    <h2 class="text-center mb-4">Booking Form</h2>
+    
+    <form #bookingForm="ngForm" (ngSubmit)="insertRecord(bookingForm)" autocomplete="off">
+      <div class="form-group">
+        <label for="userId">User ID:</label>
+        <input type="number" id="userId" name="UserId" [(ngModel)]="objs.bData.UserId" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="packageId">Package ID:</label>
+        <input type="number" id="packageId" name="PackageId" [(ngModel)]="objs.bData.PackageId" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="numberOfGuests">Number of Guests:</label>
+        <input type="number" id="numberOfGuests" name="NumberOfGuests" [(ngModel)]="objs.bData.NumberOfGuests" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" name="CardNumber" [(ngModel)]="objs.bData.CardNumber" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" name="Cvv" [(ngModel)]="objs.bData.Cvv" required class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="bookingDate">Booking Date:</label>
+        <input type="date" id="bookingDate" name="BookingDate" [(ngModel)]="objs.bData.BookingDate" required class="form-control">
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Submit Booking</button>
+    </form>
+</div>

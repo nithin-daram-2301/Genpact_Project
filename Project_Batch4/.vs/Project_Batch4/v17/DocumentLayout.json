@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\controllers\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\controllers\\authenticatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\models\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\dto\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\dto\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\dto\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\dto\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\project_batch4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\project_batch4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\controllers\\feedbackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\project_batch4.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\project_batch4.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|c:\\users\\user\\desktop\\final draft\\project_batch4\\project_batch4\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DA5834-9302-4570-9156-31E33F8D3574}|Project_Batch4\\Project_Batch4.csproj|solutionrelative:project_batch4\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\UserAuthController.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Controllers\\UserAuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\UserAuthController.cs",
+              "RelativeToolTip": "Project_Batch4\\Controllers\\UserAuthController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDoAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:45:02.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\DTO\\UserLogin.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\DTO\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\DTO\\UserLogin.cs",
+              "RelativeToolTip": "Project_Batch4\\DTO\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:43:03.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\DTO\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\DTO\\UserRegistration.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\DTO\\UserRegistration.cs",
+              "RelativeToolTip": "Project_Batch4\\DTO\\UserRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:42:38.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Project_Batch4.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Project_Batch4.csproj",
+              "RelativeDocumentMoniker": "Project_Batch4\\Project_Batch4.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Project_Batch4.csproj",
+              "RelativeToolTip": "Project_Batch4\\Project_Batch4.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-14T13:41:59.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticatedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\AuthenticatedResponse.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Controllers\\AuthenticatedResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\AuthenticatedResponse.cs",
+              "RelativeToolTip": "Project_Batch4\\Controllers\\AuthenticatedResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:29:36.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Project_Batch4\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:28:40.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Project_Batch4\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:26:53.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Project_Batch4\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Project_Batch4\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T11:57:16.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Project_Batch4",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Project_Batch4.csproj",
+              "RelativeDocumentMoniker": "Project_Batch4\\Project_Batch4.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Project_Batch4.csproj",
+              "RelativeToolTip": "Project_Batch4\\Project_Batch4.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-14T11:57:14.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PackagesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\PackagesController.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Controllers\\PackagesController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\PackagesController.cs",
+              "RelativeToolTip": "Project_Batch4\\Controllers\\PackagesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:55:19.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FeedBacksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\FeedBacksController.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Controllers\\FeedBacksController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\FeedBacksController.cs",
+              "RelativeToolTip": "Project_Batch4\\Controllers\\FeedBacksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:54:48.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Project_Batch4\\Controllers\\BookingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:54:15.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Project_Batch4\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:46:49.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\appsettings.json",
+              "RelativeDocumentMoniker": "Project_Batch4\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\appsettings.json",
+              "RelativeToolTip": "Project_Batch4\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T11:41:07.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Program.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Program.cs",
+              "RelativeToolTip": "Project_Batch4\\Program.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAAHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:40:47.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Models\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Project_Batch4\\Models\\ProjectDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Final Draft\\Project_Batch4\\Project_Batch4\\Models\\ProjectDbContext.cs",
+              "RelativeToolTip": "Project_Batch4\\Models\\ProjectDbContext.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAwD4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:40:29.558Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

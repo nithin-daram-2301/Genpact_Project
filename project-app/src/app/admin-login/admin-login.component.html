@@ -1,0 +1,65 @@
+<!-- 
+  <h2 class="text-center mb-4">Admin Login</h2>
+<form (ngSubmit)="login()" class="container">
+  <div class="mb-3">
+    <label for="username" class="form-label">Username</label>
+    <input
+      [(ngModel)]="credentials.UserName"
+      name="username"
+      id="username"
+      class="form-control"
+      placeholder="Username"
+      required
+    />
+  </div>
+  
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input
+      [(ngModel)]="credentials.Password"
+      name="password"
+      id="password"
+      type="password"
+      class="form-control"
+      placeholder="Password"
+      required
+    />
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-block">Login</button>
+  <div *ngIf="invalidLogin" class="alert alert-danger mt-2">Invalid username or password.</div>
+</form> -->
+<body>
+  <h2 class="text-center mb-4 admin-login-title">Admin Login</h2>
+
+
+<form (ngSubmit)="login()" class="container">
+  <div class="mb-3">
+    <label for="username" class="form-label">Username</label>
+    <input
+      [(ngModel)]="credentials.UserName"
+      name="username"
+      id="username"
+      class="form-control"
+      placeholder="Username"
+      required
+    />
+  </div>
+  
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input
+      [(ngModel)]="credentials.Password"
+      name="password"
+      id="password"
+      type="password"
+      class="form-control"
+      placeholder="Password"
+      required
+    />
+  </div>
+
+  <button type="submit" class="btn btn-primary btn-block">Login</button>
+  <div *ngIf="invalidLogin" class="alert alert-danger mt-2">Invalid username or password.</div>
+</form><br><br><br><br><br><br>
+</body>

@@ -1,0 +1,28 @@
+<!-- src/app/components/package-display/package-display.component.html
+ <body>
+<h2>Available Packages</h2>
+<ul>
+  <li *ngFor="let pkg of packages">
+    <h4>{{ pkg.Title }}</h4>
+    <p>{{ pkg.Description }}</p>
+    <!-- <img [src]="../../assets/Image/{{pkg.ImageName}}" alt="{{ pkg.Title }}" width="100" /> 
+    <img [src]="'../../assets/Images/' + pkg.ImageName" alt="Package Image">
+    <p>Price: {{ pkg.Price }}</p>
+    <p>Duration: {{ pkg.Duration }}</p>
+    <button (click)="deletePackage(pkg.PackageId)">Delete</button>
+  </li>
+</ul>
+</body> -->
+<body>
+<h2 class="packages-title">Available Packages</h2>
+<ul class="packages-list">
+  <li *ngFor="let pkg of packages" class="package-item">
+    <h4 class="package-title">{{ pkg.Title }}</h4>
+    <p class="package-description">{{ pkg.Description }}</p>
+    <img [src]="'../../assets/Images/' + pkg.ImageName" alt="Package Image" class="package-image">
+    <p class="package-price">Price: {{ pkg.Price | currency }}</p>
+    <p class="package-duration">Duration: {{ pkg.Duration }}</p>
+    <button (click)="deletePackage(pkg.PackageId)" class="btn-delete">Delete</button>
+  </li>
+</ul>
+</body>
