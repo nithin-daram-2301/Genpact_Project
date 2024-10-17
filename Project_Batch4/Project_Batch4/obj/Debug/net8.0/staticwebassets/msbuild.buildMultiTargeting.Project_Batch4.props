@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Project_Batch4.props" />
-</Project>
